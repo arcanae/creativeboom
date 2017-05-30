@@ -21,18 +21,18 @@
         </div>
         <nav>
             <ul>
-                <li class="menu">ABOUT </li>
-                <li class="menu">INSPIRATION ▾
+                <li class="menu" id="about">ABOUT </li>
+                <li class="menu" id="inspiration">INSPIRATION ▾
                     <ul>
-                        <li><a href="#">Art</a></li>
-                        <li><a href="#">Crafts</a></li>
-                        <li><a href="#">Graphic Design</a></li>
-                        <li><a href="#">Illustration</a></li>
-                        <li><a href="#">Photography</a></li>
-                        <li><a href="#">Travel</a></li>
+                        <li><a href="inspiration.php">Art</a></li>
+                        <li><a href="inspiration.php">Crafts</a></li>
+                        <li><a href="inspiration.php">Graphic Design</a></li>
+                        <li><a href="inspiration.php">Illustration</a></li>
+                        <li><a href="inspiration.php">Photography</a></li>
+                        <li><a href="inspiration.php">Travel</a></li>
                     </ul>
                 </li>
-                <li class="menu">TIPS ▾
+                <li class="menu" id="tips">TIPS ▾
                     <ul>
                         <li><a href="#">Career</a></li>
                         <li><a href="#">Freelancing</a></li>
@@ -41,7 +41,7 @@
                         <li><a href="#">Self</a></li>
                     </ul>
                 </li>
-                <li class="menu">RESOURCES ▾
+                <li class="menu" id="ressources">RESOURCES ▾
                     <ul>
                         <li><a href="#">Assets</a></li>
                         <li><a href="#">Books</a></li>
@@ -49,7 +49,7 @@
                         <li><a href="#">Tools</a></li>
                     </ul>
                 </li>
-                <li class="menu">FEATURES ▾
+                <li class="menu" id="features">FEATURES ▾
                     <ul>
                         <li><a href="#">Interviews</a></li>
                         <li><a href="#">Studio Tours</a></li>
@@ -305,14 +305,49 @@
                 <li><a href="#">Archive</a></li>
                 <li><a href="#">Privacy</a></li>
             </ul>
-            <p class="apropos">Creative Boom celebrates, inspires and supports the creative community.<br/> Launched in 2009, we love to explore
-                the very best creativity and offer tips, <br/>resources and advice to help you succeed.
+            <p class="apropos">Creative Boom celebrates, inspires and supports the creative community.<br/> Launched in 2009, we love to explore the very best creativity and offer tips, <br/>resources and advice to help you succeed.
             </p>
             <p class="copyright">©2016 Creative Boom Ltd. Registered in England and Wales #07437294.</p>
             <p class="creator">Created by Boomerang PR</p>
         </div>
     </footer>
+    <script>
+        document.querySelector("#about").addEventListener("click", function() {
+            location.href = "about.php";
+        });
+        document.querySelector("#about").addEventListener("mouseover", function() {
+            document.querySelector("#about").style.cursor = 'pointer';
+        });
 
+        document.querySelector("#ressources").addEventListener("click", function() {
+            location.href = "ressources.php";
+        });
+
+        document.querySelector("#features").addEventListener("click", function() {
+            location.href = "features.php";
+        });
+
+        document.querySelector("#tips").addEventListener("click", function() {
+            location.href = "tips.php";
+        });
+
+        document.querySelector("#inspiration").addEventListener("click", function() {
+            location.href = "inspiration.php";
+        });
+
+        document.querySelector("#ressources").addEventListener("mouseover", function() {
+            document.querySelector("#ressources").style.cursor = 'pointer';
+        });
+        document.querySelector("#features").addEventListener("mouseover", function() {
+            document.querySelector("#features").style.cursor = 'pointer';
+        });
+        document.querySelector("#tips").addEventListener("mouseover", function() {
+            document.querySelector("#tips").style.cursor = 'pointer';
+        });
+        document.querySelector("#inspiration").addEventListener("mouseover", function() {
+            document.querySelector("#inspiration").style.cursor = 'pointer';
+        });
+    </script>
 </body>
 
 </html>

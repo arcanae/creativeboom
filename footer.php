@@ -35,3 +35,40 @@
             <p class="creator">Created by Boomerang PR</p>
         </div>
     </footer>
+        <script>
+        document.querySelector("#about").addEventListener("click", function() {
+            location.href = "about.php";
+        });
+        document.querySelector("#about").addEventListener("mouseover", function() {
+            document.querySelector("#about").style.cursor = 'pointer';
+        });
+
+        document.querySelector("#ressources").addEventListener("click", function() {
+            location.href = "ressources.php";
+        });
+
+        document.querySelector("#features").addEventListener("click", function() {
+            location.href = "features.php";
+        });
+
+        document.querySelector("#tips").addEventListener("click", function() {
+            location.href = "tips.php";
+        });
+
+        document.querySelector("#inspiration").addEventListener("click", function() {
+            location.href = "inspiration.php";
+        });
+
+        document.querySelector("#ressources").addEventListener("mouseover", function() {
+            document.querySelector("#ressources").style.cursor = 'pointer';
+        });
+        document.querySelector("#features").addEventListener("mouseover", function() {
+            document.querySelector("#features").style.cursor = 'pointer';
+        });
+        document.querySelector("#tips").addEventListener("mouseover", function() {
+            document.querySelector("#tips").style.cursor = 'pointer';
+        });
+        document.querySelector("#inspiration").addEventListener("mouseover", function() {
+            document.querySelector("#inspiration").style.cursor = 'pointer';
+        });
+        </script>
