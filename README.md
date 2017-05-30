@@ -1,7 +1,7 @@
 # creativeboom
-Projet 1 - reproduire un site
+Projet 1 - reproduire un site.
                 - guilloudaudrey
-                
+
 #Edit by Arcanae :
 ## PHP Project
 3rd Project for **Simplon.co**.
