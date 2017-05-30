@@ -10,6 +10,13 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
+    <style>
+        #about {
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
     <?php
         include("header.php");
     ?>

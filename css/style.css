@@ -160,6 +160,22 @@ nav .menu ul li a:hover {
     text-decoration: underline;
 }
 
+main {
+    margin: 7.5em auto 0 auto;
+    max-width: 63%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main>h1 {
+    color: #222;
+    font-size: 3em;
+}
+
+main>p {
+    font-size: 1.5em;
+    color: #222;
+}
+
 
 /*-------------------------articles gallery-------------------------*/
 
