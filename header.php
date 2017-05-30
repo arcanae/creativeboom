@@ -17,27 +17,27 @@
                 </li>
                 <li class="menu" id="tips">TIPS ▾
                     <ul>
-                        <li><a href="#">Career</a></li>
-                        <li><a href="#">Freelancing</a></li>
-                        <li><a href="#">Marketing</a></li>
-                        <li><a href="#">Clients</a></li>
-                        <li><a href="#">Self</a></li>
+                        <li><a href="tips.php">Career</a></li>
+                        <li><a href="tips.php">Freelancing</a></li>
+                        <li><a href="tips.php">Marketing</a></li>
+                        <li><a href="tips.php">Clients</a></li>
+                        <li><a href="tips.php">Self</a></li>
                     </ul>
                 </li>
                 <li class="menu" id="ressources">RESOURCES ▾
                     <ul>
-                        <li><a href="#">Assets</a></li>
-                        <li><a href="#">Books</a></li>
-                        <li><a href="#">Learning</a></li>
-                        <li><a href="#">Tools</a></li>
+                        <li><a href="ressources.php">Assets</a></li>
+                        <li><a href="ressources.php">Books</a></li>
+                        <li><a href="ressources.php">Learning</a></li>
+                        <li><a href="ressources.php">Tools</a></li>
                     </ul>
                 </li>
                 <li class="menu" id="features">FEATURES ▾
                     <ul>
-                        <li><a href="#">Interviews</a></li>
-                        <li><a href="#">Studio Tours</a></li>
-                        <li><a href="#">Creative Briefs</a></li>
-                        <li><a href="#">Shopping</a></li>
+                        <li><a href="features.php">Interviews</a></li>
+                        <li><a href="features.php">Studio Tours</a></li>
+                        <li><a href="features.php">Creative Briefs</a></li>
+                        <li><a href="features.php">Shopping</a></li>
                     </ul>
                 </li>
                 <li id="search">
