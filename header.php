@@ -1,6 +1,6 @@
     <header class="bigheader">
         <div class="logo">
-            <a href="#"><img src="images/logo.svg" alt="logo"></a>
+            <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
         </div>
         <nav>
             <ul>
